@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  color: hsl(0, 0%, 0%);
+  display: flex;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+  background-color: #005fa3;
+
+  box-shadow: 0 2px 8px rgba(248, 247, 247, 0.1);
+  position: relative;
+  z-index: 10;
+}
+.logo {
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* NAV LINKS */
+nav {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* BOTÃO DE ORÇAMENTO */
+btn-orcamento {
+  background-color: #013961;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color;
+}
+.hero {
+  text-align: center;
+  padding: 3px 10px 30px;
+}
+
+.hero-video {
+  width: 95%;
+  max-height: 660px;
+  object-fit: unset;
+  border-radius: 8px;
+}
+.hero-video2 {
+  width: 95%;
+  max-height: 500px;
+  object-fit: unset;
+  border-radius: 8px;
+}
+.btn-servicos {
+  background-color: #005a9c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.servicos {
+  padding: 55px 20px;
+  background-color: #f2f2f2;
+}
+
+.servico-final {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.servico-final img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.btn-orcamento-azul {
+  background-color: #005a9c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.rodape {
+  background-color: #005a9c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,33 @@
+.servicos {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.servicos h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0078d4;
+}
+
+.servicos ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.servicos li {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #444;
+  position: relative;
+  padding-left: 20px;
+}
+
+.servicos li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #00bfa5;
+}

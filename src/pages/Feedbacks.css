@@ -1,0 +1,31 @@
+.feedbacks {
+  padding: 60px 20px;
+  background-color: #eef6f9;
+  text-align: center;
+}
+
+.feedbacks h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #0078d4;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.feedback-card p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feedback-card span {
+  font-size: 0.95rem;
+  color: #666;
+}

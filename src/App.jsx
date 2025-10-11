@@ -49,13 +49,12 @@ function App() {
       </section>
 
       {/* Foto de serviço + botão */}
+
       <section className="servico-final">
-        <video
-          src="/barco1 (4).mp4"
-          autoPlay
-          muted
-          loop
-          className="hero-video2"
+        <img
+          src="/expo.jpg" // Substitua pelo nome da imagem que você quer usar
+          alt="Serviço em embarcação"
+          className="imagem-servico"
         />
         <a href="#orcamento" className="btn-orcamento-azul">
           Solicitar Orçamento

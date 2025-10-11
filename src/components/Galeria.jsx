@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./Galeria.css";
 
 const imagens = [
-  "/roll.jpg",
   "/roll2.jpg",
   "/roll3.jpg",
   "/roll4.jpg",

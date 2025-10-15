@@ -1,33 +1,60 @@
-.servicos {
+.servicos-page {
   padding: 60px 20px;
-  background-color: #ffffff;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #333;
+}
+
+.servicos-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0078d4;
   text-align: center;
 }
 
-.servicos h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #0078d4;
+.intro {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-.servicos ul {
-  list-style: none;
-  padding: 0;
-  max-width: 600px;
-  margin: 0 auto;
+.servico-bloco {
+  margin-bottom: 50px;
 }
 
-.servicos li {
-  font-size: 1.1rem;
+.servico-bloco h2 {
+  font-size: 1.6rem;
   margin-bottom: 12px;
-  color: #444;
-  position: relative;
-  padding-left: 20px;
+  color: #005fa3;
 }
 
-.servicos li::before {
-  content: "✔";
-  position: absolute;
-  left: 0;
-  color: #00bfa5;
+.servico-bloco p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.orcamento-box {
+  margin-top: 20px;
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-left: 4px solid #0078d4;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn-orcamento {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #25d366;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-orcamento:hover {
+  background-color: #1ebe5d;
 }

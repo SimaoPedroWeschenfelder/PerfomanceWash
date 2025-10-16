@@ -36,8 +36,6 @@ const Galeria = () => {
 
   return (
     <div className="galeria">
-      <h2>Galeria de Serviços</h2>
-
       {/* Imagem destaque com autoplay */}
       <img
         src={imagens[fotoAtual]}

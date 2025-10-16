@@ -14,7 +14,7 @@ const Footer = () => {
           <FaInstagram />
         </a>
         <a
-          href="https://www.facebook.com/Rafael Weschenfelder (Performance Wash)"
+          href="https://www.facebook.com/rafael.weschenfelder.54"
           target="_blank"
           rel="noopener noreferrer"
         >

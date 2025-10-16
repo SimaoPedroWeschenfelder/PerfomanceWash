@@ -22,10 +22,6 @@ const Servicos = () => {
           Recomendado semestralmente para embarcações escuras e anualmente para
           claras.
         </p>
-        <p>
-          A proteção com nanotecnologia utiliza ceras especiais que criam uma
-          camada durável e preventiva, ideal até para embarcações novas.
-        </p>
       </section>
 
       {/* Higienização Profunda */}
@@ -51,8 +47,53 @@ const Servicos = () => {
           A recomendação é realizar essa higienização profunda antes do verão e
           a cada seis meses, além da manutenção mensal regular.
         </p>
+      </section>
+      {/*Proteçao com nano tecnologia */}
+      <section className="servico-bloco">
+        <h2>Proteçao com nano tecnologia</h2>
+        <p>
+          A aplicação de nanotecnologia cria uma camada protetora altamente
+          resistente à água e à salinidade, retardando o desgaste da pintura e
+          facilitando futuras limpezas. É ideal também para embarcações novas,
+          servindo como uma barreira preventiva de longa duração.
+        </p>
+      </section>
+
+      {/*Revitalizaçao Inox */}
+      <section className="servico-bloco">
+        <h2>Revitalizaçao Inox</h2>
+        <p>
+          A maresia e o tempo comprometem o brilho e a aparência dos metais. A
+          revitalização de inox remove oxidação, manchas e pontos de corrosão,
+          restaurando o aspecto original das peças e garantindo proteção contra
+          a ferrugem. Indicada para guarda-mancebos, escadas, grades e
+          acabamentos metálicos.
+        </p>
+      </section>
+      {/*Pintura Náutica*/}
+      <section className="servico-bloco">
+        <h2>Pintura Náutica</h2>
+        <p>
+          Realizamos reparos e repintura de partes metálicas, de fibra ou
+          madeira, utilizando tintas e vernizes náuticos de alta performance,
+          resistentes à radiação UV e à água salgada. Ideal para recuperar a
+          estética e prolongar a vida útil da embarcação.
+        </p>
+      </section>
+      {/*Conserto da Casa de Máquinas*/}
+      <section className="servico-bloco">
+        <h2>Conserto da Casa de Máquinas</h2>
+        <p>
+          O sistema mecânico da embarcação exige cuidado constante. Oferecemos
+          serviços de reparo e revitalização da casa de máquinas, incluindo
+          limpeza técnica, repintura, revisão de suportes e adequação estética.
+          O objetivo é manter o ambiente limpo, funcional e seguro, preservando
+          o valor do barco.
+        </p>
+
         <div className="orcamento-box">
           <p>Solicite hoje um orçamento sem compromisso.</p>
+
           <a
             href="https://wa.me/554891450243?text=Olá%2C%20gostaria%20de%20solicitar%20um%20orçamento%20para%20serviços%20de%20estética%20náutica."
             target="_blank"

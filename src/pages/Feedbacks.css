@@ -1,31 +1,69 @@
-.feedbacks {
+/* Container principal da página */
+.feedbacks-page {
   padding: 60px 20px;
-  background-color: #eef6f9;
+  max-width: 1000px;
+  margin: 0 auto;
   text-align: center;
+  background-color: #f9fbfc;
+  color: #333;
+  font-family: "Segoe UI", Roboto, sans-serif;
 }
 
-.feedbacks h2 {
-  font-size: 2rem;
-  margin-bottom: 30px;
+/* Título principal */
+.feedbacks-page h1 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
   color: #0078d4;
+  font-weight: 700;
 }
 
-.feedback-card {
-  background-color: #ffffff;
+/* Texto introdutório */
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* Galeria de mídia */
+.feedbacks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Estilo para imagens */
+.feedbacks-grid img {
+  width: 100%;
+  max-width: 400px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 600px;
+  object-fit: cover;
 }
 
-.feedback-card p {
-  font-size: 1.1rem;
-  color: #333;
-  margin-bottom: 10px;
+/* Estilo para vídeos locais (.mp4) */
+.feedbacks-grid video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #000;
 }
 
-.feedback-card span {
-  font-size: 0.95rem;
-  color: #666;
+/* Estilo para vídeos incorporados (YouTube, TikTok) */
+.feedbacks-grid iframe {
+  width: 100%;
+  max-width: 400px;
+  height: 225px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Frase final de compromisso */
+.compromisso {
+  margin-top: 50px;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #555;
+  line-height: 1.6;
 }

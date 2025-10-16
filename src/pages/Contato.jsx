@@ -29,7 +29,7 @@ const Contato = () => {
         </a>
 
         <a
-          href="https://www.facebook.com/performancewash"
+          href="https://www.facebook.com/Rafael Weschenfelder (Performance Wash)"
           target="_blank"
           rel="noopener noreferrer"
           className="contato-btn facebook"
@@ -54,8 +54,9 @@ const Contato = () => {
           <FaMapMarkerAlt /> Rua das Embarcações, 123 – Florianópolis, SC
         </p>
         <p>
-          <FaClock /> Atendimento: Segunda a Sábado, das 8h às 18h
+          <FaClock /> Atendimento: Segunda a sexta, das 8h às 18h
         </p>
+        <p>Sábado das 8 às 12 h</p>
       </div>
 
       <div className="orcamento-box">

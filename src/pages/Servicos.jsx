@@ -63,6 +63,36 @@ const Servicos = () => {
           </a>
         </div>
       </section>
+
+      {/* Galeria Instagram */}
+      <section className="galeria-instagram">
+        <h2>Veja nossos serviços no Instagram</h2>
+        <p>
+          Acompanhe os bastidores, resultados e técnicas aplicadas pela
+          Performance Wash.
+        </p>
+
+        <div className="instagram-embed">
+          <iframe
+            src="https://www.instagram.com/performancewash/embed"
+            title="Instagram Performance Wash"
+            width="100%"
+            height="600"
+            frameBorder="0"
+            scrolling="no"
+            allowtransparency="true"
+          ></iframe>
+        </div>
+
+        <a
+          href="https://www.instagram.com/performancewash/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-instagram"
+        >
+          Ver mais no Instagram
+        </a>
+      </section>
     </div>
   );
 };
